@@ -1,0 +1,192 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.cardot {
+    position: absolute;
+    width: 393px;
+    height: 852px;
+    left: 550px;
+    top: 80px;
+    background: #F1F1F1;
+    box-shadow: 0px 3px 30px rgba(58, 57, 57, 0.25);
+    border-radius: 20px;
+}
+
+.card {
+    margin: auto;
+    width: 300px;
+    height: 120px;
+    left: 120px;
+    margin: 15px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.card2 {
+    margin: auto;
+    width: 300px;
+    height: 575px;
+    left: 120px;
+
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background: url(styleph/rr.png);
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+
+
+}
+
+
+.social-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-buttons button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+
+.project-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+button[type="button"] {
+    background-color: #FFA500;
+    border: none;
+
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+
+}
+
+button[type="button"]:hover {
+    background-color: #F08000;
+}
+
+
+
+*.card52 {
+    color: #303030;
+    position: absolute;
+    width: 138px;
+    height: 17.42px;
+    left: calc(50% - 138px/2 - 0.5px);
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6E6D6D;
+}
+
+.vk {
+    background: url(/styleph/vk.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0 3px rgba(131, 176, 225, 0.5);
+    width: 84px;
+    height: 40px;
+    border: none;
+
+
+
+}
+
+.telegram {
+    background: url(/styleph/telegram.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0 3px rgba(131, 176, 225, 0.5);
+    width: 84px;
+    height: 40px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.Github {
+    background: url(/styleph/github.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    height: 40px;
+    border: none;
+    transition: background-color 0.3s ease;
+
+}
+
+.youtube {
+    background: url(/styleph/youtube.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0 3px rgba(241, 148, 129, 0.5);
+    width: 84px;
+    height: 40px;
+    border: none;
+    transition: background-color 0.3s ease;
+
+}
+
+.image {
+    position: absolute;
+    width: 393px;
+    height: 250px;
+    left: -1px;
+    top: 0px;
+
+    border-radius: 0px 0px 40px 40px;
+    background: url(styleph/img.jpg);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
